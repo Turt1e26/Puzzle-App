@@ -19,7 +19,7 @@ struct DragableImage: View {
                 var y = value.startLocation.y + value.translation.height - imageSize/2
                 
                 
-                if abs(x - endLocation.x) < 20 && abs(y - endLocation.y) < 20{
+                if abs(x - endLocation.x) < 40 && abs(y - endLocation.y) < 40{
                     x = endLocation.x
                     y = endLocation.y
                 }
